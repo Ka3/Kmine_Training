@@ -1,0 +1,26 @@
+add company dummy template
+<br>
+
+
+<h1>Name : </h1>{{ Name }}
+<br>
+<h1>City : </h1>{{ City }}
+
+<table border=1>
+<tr>
+<th>Name</th>
+<th>State</th>
+<th>Country</th>
+</tr>
+
+{% for Comp in Company_list %}
+	<tr>
+	<td>{{Comp.company_name}}</td><td>{{ Comp.State.id}}</td><td>{{Comp.country}}</td>
+	</tr>
+{% endfor %}
+
+{#  dafhdkafhkjsd #}
+
+
+
+</table>
